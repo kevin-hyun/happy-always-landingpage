@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>늘행복노인복지센터 - 제주 방문요양 전문</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5">
+    <meta name="description" content="늘행복노인복지센터 - 제주특별자치도 방문요양 전문기관. 30년 복지 경력의 전문가가 어르신의 행복한 일상을 함께합니다.">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=yes">
+    <meta charset="UTF-8">
+
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <link rel="apple-touch-icon" href="images/logo.png">
+
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body class="bg-white">
+    <!-- 하단 고정 전화 바 (모바일) -->
+    <div class="fixed bottom-0 left-0 right-0 z-50 md:hidden safe-bottom">
+      <a href="tel:0647573053"
+         class="flex items-center justify-center gap-2 bg-primary text-white text-xl font-bold py-5 active:bg-primary-dark transition-colors">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+        </svg>
+        전화 상담 064-757-3053
+      </a>
+    </div>
+
+    <!-- 네비게이션 -->
+    <nav class="fixed top-0 left-0 right-0 z-40 bg-white/95 backdrop-blur shadow-sm">
+      <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+        <a href="#top">
+          <img src="images/logo.png" alt="늘행복노인복지센터" class="h-10 md:h-12 w-auto">
+        </a>
+        <div class="hidden md:flex items-center gap-8 text-base font-medium text-text-light">
+          <a href="#about" class="hover:text-primary transition-colors">센터 소개</a>
+          <a href="#service" class="hover:text-primary transition-colors">서비스 안내</a>
+          <a href="#process" class="hover:text-primary transition-colors">이용 절차</a>
+          <a href="#location" class="hover:text-primary transition-colors">찾아오시는 길</a>
+          <a href="tel:0647573053"
+             class="bg-primary text-white px-5 py-3 rounded-lg hover:bg-primary-dark active:bg-primary-dark transition-colors min-h-[48px] flex items-center">
+            📞 064-757-3053
+          </a>
+        </div>
+        <!-- 모바일 메뉴 버튼 -->
+        <button id="mobile-menu-btn" class="md:hidden w-12 h-12 flex items-center justify-center text-3xl text-primary-dark rounded-lg active:bg-gray-100" aria-label="메뉴 열기">
+          ☰
+        </button>
+      </div>
+      <!-- 모바일 메뉴 -->
+      <div id="mobile-menu" class="hidden md:hidden bg-white border-t px-4 pb-4">
+        <a href="#about" class="block py-4 text-lg font-medium text-text-light border-b border-gray-100 min-h-[52px] flex items-center">센터 소개</a>
+        <a href="#service" class="block py-4 text-lg font-medium text-text-light border-b border-gray-100 min-h-[52px] flex items-center">서비스 안내</a>
+        <a href="#process" class="block py-4 text-lg font-medium text-text-light border-b border-gray-100 min-h-[52px] flex items-center">이용 절차</a>
+        <a href="#location" class="block py-4 text-lg font-medium text-text-light min-h-[52px] flex items-center">찾아오시는 길</a>
+        <a href="tel:0647573053" class="mt-3 flex items-center justify-center gap-2 bg-primary text-white text-lg font-bold py-4 rounded-xl active:bg-primary-dark min-h-[52px]">
+          📞 바로 전화하기
+        </a>
+      </div>
+    </nav>
+
+    <main>
+<!-- ============================== -->
+<!-- 섹션 1: 히어로 -->
+<!-- ============================== -->
+<section id="top" class="relative min-h-[85vh] md:min-h-[80vh] flex items-center mt-14">
+  <div class="absolute inset-0 -z-10">
+    <img src="images/front1.jpeg" alt="늘행복노인복지센터 전경" class="w-full h-full object-cover">
+    <div class="absolute inset-0 bg-gradient-to-r from-primary-dark/85 to-primary/70"></div>
+  </div>
+
+  <div class="max-w-6xl mx-auto px-5 py-16 md:py-32 text-white w-full">
+    <div class="max-w-2xl">
+      <p class="text-base md:text-xl mb-3 opacity-90">제주특별자치도 방문요양 전문기관</p>
+      <h1 class="text-3xl md:text-6xl font-bold leading-tight mb-5">
+        늘 행복한 일상을<br>함께 만들어갑니다
+      </h1>
+      <p class="text-base md:text-xl leading-relaxed mb-8 opacity-90">
+        30년 복지 경력의 전문가가 어르신 한 분 한 분의
+        소중한 일상을 정성껏 돌봅니다.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-3">
+        <a href="tel:0647573053"
+           class="bg-white text-primary-dark text-lg md:text-xl font-bold px-6 py-4 rounded-xl hover:bg-warm active:bg-warm-dark transition-colors text-center min-h-[56px] flex items-center justify-center">
+          📞 064-757-3053
+        </a>
+        <a href="#about"
+           class="border-2 border-white text-white text-lg px-6 py-4 rounded-xl hover:bg-white/10 active:bg-white/20 transition-colors text-center min-h-[56px] flex items-center justify-center">
+          센터 소개 보기
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== -->
+<!-- 섹션 2: 센터 소개 / 인사말 -->
+<!-- ============================== -->
+<section id="about" class="py-16 md:py-28 bg-white">
+  <div class="max-w-6xl mx-auto px-5">
+    <h2 class="text-2xl md:text-4xl font-bold text-center mb-3 text-primary-dark">센터 소개</h2>
+    <p class="text-center text-text-light text-base md:text-lg mb-12 md:mb-16">늘행복노인복지센터를 소개합니다</p>
+
+    <div class="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+      <div class="flex justify-center">
+        <div class="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary/20 shadow-lg">
+          <img src="images/represent3.png" alt="대표 김경신" class="w-full h-full object-cover object-[center_20%]">
+        </div>
+      </div>
+
+      <div>
+        <h3 class="text-xl md:text-2xl font-bold mb-2 text-primary-dark">대표 인사말</h3>
+        <p class="text-primary font-semibold text-base md:text-lg mb-5">대표 김경신</p>
+
+        <div class="space-y-3 md:space-y-4 text-base md:text-lg leading-relaxed text-text-light">
+          <p>안녕하세요, <strong class="text-text">늘행복노인복지센터</strong> 대표 김경신입니다.</p>
+          <p>저는 30년간 복지 현장에서 어르신들과 함께해 왔습니다. 그중 20년은 도립 제주의료원 요양원에서 어르신들의 건강하고 행복한 노후를 위해 헌신하며 현장의 소중한 경험을 쌓았습니다.</p>
+          <p>원예치료협회 회장과 평생교육사로서의 전문성을 바탕으로, 단순한 돌봄을 넘어 어르신 한 분 한 분의 마음까지 어루만지는 따뜻한 요양 서비스를 제공하고자 합니다.</p>
+          <p><strong class="text-primary-dark">'늘 행복'</strong>이라는 이름처럼, 어르신들이 매일매일 행복을 느끼실 수 있도록 최선을 다하겠습니다.</p>
+        </div>
+
+        <div class="mt-6 md:mt-8 bg-warm rounded-xl p-5 md:p-6">
+          <h4 class="font-bold text-primary-dark mb-3">주요 경력</h4>
+          <ul class="space-y-2 text-text-light text-base">
+            <li class="flex items-start gap-2"><span class="text-primary mt-0.5">✔</span><span>복지 분야 <strong class="text-text">30년</strong> 경력</span></li>
+            <li class="flex items-start gap-2"><span class="text-primary mt-0.5">✔</span><span>도립 제주의료원 요양원 <strong class="text-text">20년</strong> 근무</span></li>
+            <li class="flex items-start gap-2"><span class="text-primary mt-0.5">✔</span><span>원예치료협회 회장</span></li>
+            <li class="flex items-start gap-2"><span class="text-primary mt-0.5">✔</span><span>평생교육사 자격 보유</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-16 md:mt-20">
+      <h3 class="text-xl md:text-2xl font-bold text-center mb-8 md:mb-10 text-primary-dark">센터 둘러보기</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+        <div class="rounded-xl overflow-hidden aspect-[4/3]"><img src="images/front1.jpeg" alt="센터 전경 1" class="w-full h-full object-cover"></div>
+        <div class="rounded-xl overflow-hidden aspect-[4/3]"><img src="images/front2.jpeg" alt="센터 전경 2" class="w-full h-full object-cover"></div>
+      </div>
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
+        <div class="rounded-xl overflow-hidden aspect-[4/3]"><img src="images/center1.jpeg" alt="센터 활동 1" class="w-full h-full object-cover"></div>
+        <div class="rounded-xl overflow-hidden aspect-[4/3]"><img src="images/center2.jpeg" alt="센터 활동 2" class="w-full h-full object-cover"></div>
+        <div class="rounded-xl overflow-hidden aspect-[4/3]"><img src="images/center3.jpeg" alt="센터 활동 3" class="w-full h-full object-cover"></div>
+        <div class="rounded-xl overflow-hidden aspect-[4/3]"><img src="images/center4.jpeg" alt="센터 활동 4" class="w-full h-full object-cover"></div>
+        <div class="rounded-xl overflow-hidden aspect-[4/3]"><img src="images/center5.jpeg" alt="센터 활동 5" class="w-full h-full object-cover"></div>
+        <div class="rounded-xl overflow-hidden aspect-[4/3]"><img src="images/center6.jpeg" alt="센터 활동 6" class="w-full h-full object-cover"></div>
+        <div class="rounded-xl overflow-hidden aspect-[4/3]"><img src="images/center7.jpeg" alt="센터 활동 7" class="w-full h-full object-cover"></div>
+        <div class="rounded-xl overflow-hidden aspect-[4/3]"><img src="images/center8.jpeg" alt="센터 활동 8" class="w-full h-full object-cover"></div>
+        <div class="rounded-xl overflow-hidden aspect-[4/3]"><img src="images/center9.jpeg" alt="센터 활동 9" class="w-full h-full object-cover"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== -->
+<!-- 섹션 3: 서비스 안내 -->
+<!-- ============================== -->
+<section id="service" class="py-16 md:py-28 bg-warm">
+  <div class="max-w-6xl mx-auto px-5">
+    <h2 class="text-2xl md:text-4xl font-bold text-center mb-3 text-primary-dark">서비스 안내</h2>
+    <p class="text-center text-text-light text-base md:text-lg mb-10 md:mb-16">전문 요양보호사가 가정으로 방문합니다</p>
+
+    <div class="max-w-4xl mx-auto">
+      <div class="bg-white rounded-2xl shadow-sm p-6 md:p-12">
+        <div class="flex items-center gap-3 md:gap-4 mb-5 md:mb-6">
+          <div class="w-14 h-14 md:w-16 md:h-16 bg-primary/10 rounded-xl flex items-center justify-center text-2xl md:text-3xl shrink-0">🏠</div>
+          <h3 class="text-xl md:text-3xl font-bold text-primary-dark">방문요양 서비스</h3>
+        </div>
+
+        <p class="text-base md:text-lg text-text-light mb-6 md:mb-8 leading-relaxed">
+          장기요양등급을 받으신 어르신의 가정에 전문 요양보호사가 직접 방문하여
+          신체활동, 인지활동, 정서지원, 가사지원 등 맞춤형 돌봄 서비스를 제공합니다.
+        </p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 md:gap-6">
+          <div class="flex items-start gap-3 p-4 bg-warm/50 rounded-xl">
+            <span class="text-primary text-2xl shrink-0">💪</span>
+            <div>
+              <h4 class="font-bold text-base md:text-lg mb-1">신체활동 지원</h4>
+              <p class="text-text-light text-sm md:text-base">세면, 식사, 체위변경, 이동 도움 등 일상생활 보조</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-3 p-4 bg-warm/50 rounded-xl">
+            <span class="text-primary text-2xl shrink-0">🧠</span>
+            <div>
+              <h4 class="font-bold text-base md:text-lg mb-1">인지활동 지원</h4>
+              <p class="text-text-light text-sm md:text-base">인지자극 프로그램, 일상생활 훈련 등</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-3 p-4 bg-warm/50 rounded-xl">
+            <span class="text-primary text-2xl shrink-0">💛</span>
+            <div>
+              <h4 class="font-bold text-base md:text-lg mb-1">정서지원</h4>
+              <p class="text-text-light text-sm md:text-base">말벗, 외출 동행, 생활 상담 등 정서적 돌봄</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-3 p-4 bg-warm/50 rounded-xl">
+            <span class="text-primary text-2xl shrink-0">🏡</span>
+            <div>
+              <h4 class="font-bold text-base md:text-lg mb-1">가사지원</h4>
+              <p class="text-text-light text-sm md:text-base">청소, 세탁, 식사 준비 등 가사활동 보조</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== -->
+<!-- 섹션 4: 이용 절차 -->
+<!-- ============================== -->
+<section id="process" class="py-16 md:py-28 bg-white">
+  <div class="max-w-6xl mx-auto px-5">
+    <h2 class="text-2xl md:text-4xl font-bold text-center mb-3 text-primary-dark">이용 절차</h2>
+    <p class="text-center text-text-light text-base md:text-lg mb-10 md:mb-16">간단한 절차로 서비스를 이용하실 수 있습니다</p>
+
+    <div class="max-w-4xl mx-auto">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
+        <div class="text-center">
+          <div class="w-16 h-16 md:w-20 md:h-20 bg-primary text-white rounded-full flex items-center justify-center text-xl md:text-2xl font-bold mx-auto mb-3">1</div>
+          <h4 class="text-lg md:text-xl font-bold mb-1">전화 상담</h4>
+          <p class="text-text-light text-sm md:text-base">센터로 전화하여<br>상담을 받으세요</p>
+        </div>
+        <div class="text-center">
+          <div class="w-16 h-16 md:w-20 md:h-20 bg-primary text-white rounded-full flex items-center justify-center text-xl md:text-2xl font-bold mx-auto mb-3">2</div>
+          <h4 class="text-lg md:text-xl font-bold mb-1">등급 안내</h4>
+          <p class="text-text-light text-sm md:text-base">장기요양등급 절차를<br>안내해 드립니다</p>
+        </div>
+        <div class="text-center">
+          <div class="w-16 h-16 md:w-20 md:h-20 bg-primary text-white rounded-full flex items-center justify-center text-xl md:text-2xl font-bold mx-auto mb-3">3</div>
+          <h4 class="text-lg md:text-xl font-bold mb-1">계약 체결</h4>
+          <p class="text-text-light text-sm md:text-base">서비스 내용 및<br>일정을 협의합니다</p>
+        </div>
+        <div class="text-center">
+          <div class="w-16 h-16 md:w-20 md:h-20 bg-primary text-white rounded-full flex items-center justify-center text-xl md:text-2xl font-bold mx-auto mb-3">4</div>
+          <h4 class="text-lg md:text-xl font-bold mb-1">서비스 개시</h4>
+          <p class="text-text-light text-sm md:text-base">전문 요양보호사가<br>가정에 방문합니다</p>
+        </div>
+      </div>
+
+      <div class="mt-10 md:mt-12 bg-warm rounded-xl p-5 md:p-6 text-center">
+        <p class="text-base md:text-lg text-text-light">
+          <strong class="text-primary-dark">장기요양등급에 대해 궁금하신 점이 있으신가요?</strong><br>
+          등급 판정 절차 및 서비스 이용에 대해 안내해 드립니다.
+        </p>
+        <a href="tel:0647573053" class="inline-block mt-4 bg-primary text-white text-base md:text-lg font-bold px-6 md:px-8 py-3 rounded-xl hover:bg-primary-dark active:bg-primary-dark transition-colors min-h-[52px]">
+          📞 무료 상담 전화하기
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== -->
+<!-- 섹션 5: 찾아오시는 길 -->
+<!-- ============================== -->
+<section id="location" class="py-16 md:py-28 bg-warm">
+  <div class="max-w-6xl mx-auto px-5">
+    <h2 class="text-2xl md:text-4xl font-bold text-center mb-3 text-primary-dark">찾아오시는 길</h2>
+    <p class="text-center text-text-light text-base md:text-lg mb-10 md:mb-16">제주특별자치도 용남길 24-2</p>
+
+    <div class="grid md:grid-cols-2 gap-6 md:gap-8">
+      <div class="rounded-2xl overflow-hidden aspect-[4/3] md:aspect-auto md:min-h-[400px]">
+        <iframe
+          src="https://maps.google.com/maps?q=33.509762,126.51421&z=17&output=embed"
+          width="100%"
+          height="100%"
+          style="min-height: 300px; border: 0;"
+          allowfullscreen
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="늘행복노인복지센터 위치">
+        </iframe>
+      </div>
+
+      <div class="flex flex-col justify-center space-y-5 md:space-y-6">
+        <div>
+          <h4 class="text-lg md:text-xl font-bold text-primary-dark mb-2">📍 주소</h4>
+          <p class="text-base md:text-lg text-text-light">제주특별자치도 용남길 24-2</p>
+        </div>
+
+        <div>
+          <h4 class="text-lg md:text-xl font-bold text-primary-dark mb-2">📞 연락처</h4>
+          <p class="text-base md:text-lg">
+            <a href="tel:0647573053" class="text-primary font-bold hover:underline active:underline">064-757-3053</a>
+          </p>
+        </div>
+
+        <div>
+          <h4 class="text-lg md:text-xl font-bold text-primary-dark mb-2">🕘 운영시간</h4>
+          <p class="text-base md:text-lg text-text-light">평일 09:00 ~ 18:00</p>
+          <p class="text-sm md:text-base text-primary mt-1">※ 유선 통화는 근무시간 이후에도 가능합니다</p>
+        </div>
+
+        <div class="flex flex-col gap-3 pt-2">
+          <a href="https://map.kakao.com/link/search/제주특별자치도 제주시 용남길 24-2"
+             target="_blank" rel="noopener"
+             class="bg-[#FEE500] text-[#3C1E1E] text-base md:text-lg font-bold px-6 py-4 rounded-xl text-center hover:opacity-90 active:opacity-80 transition-opacity min-h-[52px] flex items-center justify-center">
+            카카오맵에서 보기
+          </a>
+          <a href="https://map.naver.com/v5/search/제주특별자치도 제주시 용남길 24-2"
+             target="_blank" rel="noopener"
+             class="bg-[#03C75A] text-white text-base md:text-lg font-bold px-6 py-4 rounded-xl text-center hover:opacity-90 active:opacity-80 transition-opacity min-h-[52px] flex items-center justify-center">
+            네이버지도에서 보기
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== -->
+<!-- 섹션 6: 상담 안내 -->
+<!-- ============================== -->
+<section class="py-16 md:py-28 bg-primary-dark text-white">
+  <div class="max-w-4xl mx-auto px-5 text-center">
+    <h2 class="text-2xl md:text-4xl font-bold mb-3">상담이 필요하신가요?</h2>
+    <p class="text-base md:text-xl opacity-90 mb-8 md:mb-10">
+      방문요양에 대한 궁금한 점이 있으시면<br>
+      언제든 편하게 연락해 주세요.
+    </p>
+
+    <a href="tel:0647573053"
+       class="inline-flex items-center justify-center bg-white text-primary-dark text-xl md:text-2xl font-bold px-10 md:px-12 py-5 rounded-2xl hover:bg-warm active:bg-warm-dark transition-colors min-h-[60px]">
+      📞 064-757-3053
+    </a>
+
+    <p class="mt-5 text-base md:text-lg opacity-80">
+      평일 09:00 ~ 18:00 | 유선 통화는 근무시간 이후에도 가능
+    </p>
+  </div>
+</section>
+
+<!-- ============================== -->
+<!-- 섹션 7: 푸터 -->
+<!-- ============================== -->
+<footer class="bg-[#1a1a1a] text-gray-400 py-10 md:py-12 pb-28 md:pb-12">
+  <div class="max-w-6xl mx-auto px-5">
+    <div class="md:flex md:justify-between md:items-start">
+      <div>
+        <div class="flex items-center gap-2 mb-4">
+          <img src="images/logo.png" alt="로고" class="h-8 w-auto">
+          <span class="text-white text-lg font-bold">늘행복노인복지센터</span>
+        </div>
+        <div class="space-y-1 text-sm md:text-base">
+          <p>대표 : 김경신</p>
+          <p>사업자등록번호 : 813-80-02615</p>
+          <p>주소 : 제주특별자치도 용남길 24-2</p>
+          <p>전화 : <a href="tel:0647573053" class="hover:text-white active:text-white">064-757-3053</a></p>
+        </div>
+      </div>
+
+      <div class="mt-6 md:mt-0 md:text-right">
+        <p class="text-xs md:text-sm">&copy; 2026 늘행복노인복지센터. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+    </main>
+
+    <script>
+      const menuBtn = document.getElementById('mobile-menu-btn');
+      const mobileMenu = document.getElementById('mobile-menu');
+      menuBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+      mobileMenu.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          mobileMenu.classList.add('hidden');
+        });
+      });
+    </script>
+  </body>
+</html>
